@@ -121,7 +121,7 @@ p {
 
 /* Animation for the items */
 .item {
-  box-shadow: 0 4px 8px 0 #000000;
+  box-shadow: 0 4px 8px 0 #030303;
   width: 20%;
   min-width: 8rem;
   margin: 0.5rem;
