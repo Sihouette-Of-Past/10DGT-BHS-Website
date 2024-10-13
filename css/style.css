@@ -2,7 +2,7 @@
 html{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0rem 2rem;
-  background-color: #fff2ce;
+  background-color: #002947;
 }
 
 /* Banner image*/
@@ -22,7 +22,7 @@ nav ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #002947;
+  background-color: #6bbcd1;
   top: 0;
   width: 100%;
   text-align: center;
@@ -48,14 +48,14 @@ nav li:hover{
 }
 
 nav #active{
-  background-color: #6bbcd1;
+  background-color: #b8e8f4;
 }
 
 /* Styling for the main section*/
 /* This is the line between the main section and footer */
 main{
   border-bottom: 3px solid;
-  color: black;
+  color: #fff2ce;
 }
 
 /* H1 uses a google font. Check out https://www.w3schools.com/howto/howto_google_fonts.asp to change - also see line 9 in your html page*/
@@ -68,14 +68,21 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: #fff2ce;
   font-family: 'Short Stack';
   font-size: 30px;
   text-align: center;
 }
 
+h5 {
+  color: #4d9eb3;
+  font-family: 'Short Stack';
+  font-size: 14px;
+  text-align: center;
+}
+
 p {
-  color: black;
+  color: #fff2ce;
   font-family: "Short Stack";
 
   font-size: 14px;
@@ -90,9 +97,14 @@ p {
   justify-content: center; 
 }
 
+.containerlol{
+  display: flex;  
+  align-items: center; 
+  justify-content: center; 
+}
 /*Items for all the screenshots and pictures of your stuff*/
 .item{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 #000000;
   width: 20%;
   min-width: 8rem;
   margin: 0.5rem;
@@ -107,16 +119,31 @@ p {
 }
 
 
-
 /* Animation for the items */
 .item {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 #000000;
   width: 20%;
   min-width: 8rem;
   margin: 0.5rem;
-  transition: transform 0.5s ease; /* Define the transition property */
+  transition: transform 0.5s ease; 
+  /* Define the transition property */ 
 }
 
 .item:hover {
   transform: translateY(-10px); /* Apply the transformation on hover */
+}
+
+.itemlol {
+  width: 50%;
+  min-width: 8rem;
+  transition: transform 0.5s ease; 
+  /* Define the transition property */ 
+}
+
+.itemlol:hover {
+  transform: translateY(-10px); /* Apply the transformation on hover */
+}
+
+.itemlol img{
+  width: 200%;
 }
